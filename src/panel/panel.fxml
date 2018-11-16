@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXSlider?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="650.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="panel.Controller">
+   <center>
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="25.0" style="-fx-background-color: #edf0f7;" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #2e4c7c;">
+               <children>
+                  <Label layoutX="11.0" layoutY="136.0" text="Searching Algorithms Visualization" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="171.0" text="made by Tressos &amp; Sklavounos" textFill="WHITE" />
+                  <ImageView fitHeight="201.0" fitWidth="400.0" layoutX="1.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../resources/graph.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <JFXButton fx:id="initializeBtn" alignment="CENTER" onAction="#initializeGraphPane" prefHeight="50.0" prefWidth="400.0" ripplerFill="#2e4c7c" text="Initialize Graph">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets></JFXButton>
+            <JFXButton fx:id="startAStarBtn" alignment="CENTER" layoutX="110.0" layoutY="40.0" onAction="#startAStarAlgorithm" prefHeight="50.0" prefWidth="400.0" ripplerFill="#2e4c7c" text="Run A* Algorithm">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets></JFXButton>
+            <JFXButton fx:id="startBfsBtn" alignment="CENTER" layoutX="110.0" layoutY="120.0" onAction="#startBreadthFirstAlgorithm" prefHeight="50.0" prefWidth="400.0" ripplerFill="#2e4c7c" text="Run BFS Algorithm">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets></JFXButton>
+            <JFXComboBox fx:id="nodeListComboBox" focusColor="#2e4c7c" labelFloat="true" prefHeight="31.0" prefWidth="170.0" promptText="Start Node" />
+            <VBox spacing="10.0">
+               <children>
+                  <Label text="Visualazitaion Speed">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <JFXSlider fx:id="delaySlideBar" disable="true" max="2000.0" prefHeight="18.0" prefWidth="400.0" value="1000.0">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </JFXSlider>
+               </children>
+               <padding>
+                  <Insets left="30.0" right="30.0" />
+               </padding>
+            </VBox>
+            <VBox layoutX="10.0" layoutY="516.0" spacing="10.0">
+               <children>
+                  <Label text="Graph Font Size">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <JFXSlider fx:id="graphFontSizeSlideBar" disable="true" max="50.0" prefHeight="18.0" prefWidth="400.0" value="15.0">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </JFXSlider>
+               </children>
+               <padding>
+                  <Insets left="30.0" right="30.0" />
+               </padding>
+            </VBox>
+         </children>
+      </VBox>
+   </center>
+   <stylesheets>
+      <URL value="@stylesheet.css" />
+   </stylesheets>
+</BorderPane>

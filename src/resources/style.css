@@ -1,0 +1,35 @@
+graph {
+    padding: 40px;
+}
+
+node {
+    shape: box;
+    size: 15px;
+    text-size: 10px;
+    text-alignment: at-right;
+    text-padding: 5px, 5px;
+}
+
+node.visited {
+	fill-color: grey;
+}
+
+node.neighbor {
+    fill-color: red;
+}
+
+node.current {
+    fill-color: blue;
+}
+
+node.start {
+    fill-color: green;
+}
+
+node.goal {
+    fill-color: orange;
+}
+
+edge {
+    text-size: 10px;
+}
