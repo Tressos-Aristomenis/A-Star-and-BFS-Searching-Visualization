@@ -3,7 +3,7 @@
 
 Nikos' github account: https://github.com/NickSklA.
 
-How to run the application:
+# How to run the application:
 
 - Go to my releases.
 - Find the latest release.
