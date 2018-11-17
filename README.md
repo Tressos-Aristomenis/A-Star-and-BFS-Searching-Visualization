@@ -18,4 +18,4 @@ Nikos' github account: https://github.com/NickSklA.
 
 The graph in the image below represents a map of Romania.
 
-![alt text](https://imgur.com/a/ojyLtop)
+![picture](https://imgur.com/a/ojyLtop)
