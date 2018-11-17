@@ -16,6 +16,6 @@ Nikos' github account: https://github.com/NickSklA.
 ---------------------------------------------------
 ---------------------------------------------------
 
-The graph in the image below represents a map of Romania.
+### A map of Romania
 
 ![graph preview](https://user-images.githubusercontent.com/34586179/48661527-c615e200-ea7b-11e8-8cde-1e0f317c43c0.png)
