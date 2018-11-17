@@ -16,6 +16,10 @@ Nikos' github account: https://github.com/NickSklA.
 ---------------------------------------------------
 ---------------------------------------------------
 
-## A map of Romania
+## Α* Preview
 
-![graph preview](https://user-images.githubusercontent.com/34586179/48661527-c615e200-ea7b-11e8-8cde-1e0f317c43c0.png)
+![a star preview](https://user-images.githubusercontent.com/34586179/48661630-b8615c00-ea7d-11e8-841c-309bc9eb9236.png)
+
+## Breadth First Search Preview
+
+![bfs preview](https://user-images.githubusercontent.com/34586179/48661670-7684e580-ea7e-11e8-8b67-4cca625e7cc5.png)
